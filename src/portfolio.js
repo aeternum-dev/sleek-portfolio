@@ -9,11 +9,18 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Szabolcs's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  og: {
-    title: "Ashutosh Hathidara Portfolio",
+  english : {
+    title: "Szabolcs's Portfolio",
+    description:
+      "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact."
+  },
+  hungarian : {
+    title: "Szabolcs portfoliója",
+    description:
+      "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  },
+    og: { //should suffice
+    title: "Terjék Szabolcs",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -27,23 +34,18 @@ const greeting = {
     logo_name: "aeternum", //==>gonna need to change logo
     nickname: "aeternum-dev",
     subTitle:
-      "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-    resumeLink:
-      "",
-    portfolio_repository: "https://github.com/aeternum-dev",
-    githubProfile: "https://github.com/aeternum-dev",
+      "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact."
     },
-    hungarian : {
+  hungarian : {
       title: "Terjék Szabolcs",
     logo_name: "AshutoshHathidara",
     nickname: "aeternum-dev",
     subTitle:
       "Szeretném ha ez magyarul jelenne meg kezdésnek",
-    resumeLink:
-      "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-    portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-    githubProfile: "https://github.com/ashutosh1919",
     },
+  resumeLink: "",
+  portfolio_repository: "https://github.com/aeternum-dev",
+  githubProfile: "https://github.com/aeternum-dev",
   }
 
 const socialMediaLinks = [
@@ -107,56 +109,17 @@ const socialMediaLinks = [
   },
 ];
 
+
+//needs revamp
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "📌 Building responsive, interactive and intuitive Frontends with SEO",
+        "📌 Creating cross-platform mobile apps with React Native",
+        "📌 Writing scalable Backend Code in Node and hopefully other frameworks in the future",
       ],
       softwareSkills: [
         {
@@ -174,13 +137,6 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -189,14 +145,20 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
+          skillName: "React.js",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
           },
         },
+        { skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:next",
+          style: {
+            color: '#000000'
+          },
+        },
         {
-          skillName: "NodeJS",
+          skillName: "Node.js",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
             color: "#339933",
@@ -216,46 +178,65 @@ const skills = {
             color: "#2C8EBB",
           },
         },
+      ],
+    },
+    {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "📌 Modelling and simulating populations, then analyzing the data using R",
+        "📌 Working with Computer Vision and NLP projects using Pytorch and TensorFlow",
+        "📌 Gained Nvidia's Fundamentals of Deep Learning certification",
+      ],
+      softwareSkills: [
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
-            color: "#663399",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
           style: {
-            color: "#02569B",
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Jupyter",
+          fontAwesomeClassname: "logos-jupyter",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "logos-rstudio",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Deployment & Databases",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "📌 Deploy to numerous cloud providers",
+        "📌  ",
+        
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
@@ -277,36 +258,36 @@ const skills = {
             color: "#336791",
           },
         },
-        {
+        /*{
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
           },
-        },
-        {
+        },*/
+        /*{
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
           },
-        },
-        {
+        },*/
+        /*{
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5",
           },
-        },
+        },*/
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Miscellaneous technologies",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "📌 Confident usage of Git version control system",
+        "📌 Experience in video editing and image manipulation",
+        "📌 Years of experience with linux and the terminal",
       ],
       softwareSkills: [
         {
@@ -397,9 +378,9 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2016 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "📌 I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "📌 Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "📌 I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "http://iiitk.ac.in",
     },
