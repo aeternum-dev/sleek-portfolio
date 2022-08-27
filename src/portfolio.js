@@ -20,7 +20,7 @@ const seo = {
       "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   },
     og: { //should suffice
-    title: "Terjék Szabolcs",
+    title: "Szabolcs Terjék's Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -117,9 +117,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "📌 Building responsive, interactive and intuitive Frontends with SEO",
-        "📌 Creating cross-platform mobile apps with React Native",
-        "📌 Writing scalable Backend Code in Node and hopefully other frameworks in the future",
+        "📌 Building responsive, interactive and intuitive React Frontends with SEO",
+        "📌 Writing scalable Backend Code in Node.js",
+        "📌 Brief experience in Microsoft's .NET framework(Core and MVC)",
       ],
       softwareSkills: [
         {
@@ -232,8 +232,9 @@ const skills = {
       title: "Deployment & Databases",
       fileName: "CloudInfraImg",
       skills: [
-        "📌 Deploy to numerous cloud providers",
-        "📌  ",
+        "📌 Have already deployed to Firebase, Github Pages, Azure and Vercel",
+        "📌 Experience with modern ORMs like Prisma and the one included in .NET",
+        "📌 Experience with SQL databases such as PostgreSQL and Oracle SQL",
         
       ],
       softwareSkills: [
@@ -285,40 +286,14 @@ const skills = {
       title: "Miscellaneous technologies",
       fileName: "DesignImg",
       skills: [
-        "📌 Confident usage of Git version control system",
+        "📌 Confident command of the Git version control system",
+        "📌 Scripting in an Indie Game project using Unity's C# framework",
         "📌 Experience in video editing and image manipulation",
-        "📌 Years of experience with linux and the terminal",
+        "📌 Years of experience with Linux and the terminal",
+        "📌 Understanding of polymorphism, inheritance and other OOP concepts",
+        "📌 Low-level coding experience with C++",
       ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
+      softwareSkills: [],
     },
   ],
 };

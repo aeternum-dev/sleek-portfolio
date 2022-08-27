@@ -1,5 +1,6 @@
 # New structure of Home:
 Introduction  //unchanged
+react typed roles
 
 # What I do?   I have experience with:
 - Fullstack
@@ -8,6 +9,7 @@ Introduction  //unchanged
 - Script languages (Ansible)
 
 # Changes:
+
 - Adjust "theme" to my liking
 - Add multi-language support
     -add data for muliple languages in portfolio.js #1
