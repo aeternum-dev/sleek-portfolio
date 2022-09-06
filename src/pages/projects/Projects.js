@@ -18,77 +18,8 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <Header theme={theme} />
-        <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
-            <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
-              </div>
-              <div className="projects-heading-text-div">
-                <h1
-                  className="projects-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {projectsHeader.title}
-                </h1>
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {projectsHeader["description"]}
-                </p>
-              </div>
-            </div>
-          </Fade>
-        </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
-
-        {/* Publications  */}
-
-        <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
-            <div className="publications-heading-div">
-              <div className="publications-heading-text-div">
-                <h1
-                  className="publications-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {publicationsHeader.title}
-                </h1>
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {publicationsHeader["description"]}
-                </p>
-              </div>
-            </div>
-          </Fade>
-        </div>
-
-        <div className="repo-cards-div-main">
-          {PublicationData.data.map((repo) => {
-            return <PublicationCard repo={repo} theme={theme} />;
-          })}
-        </div>
-
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        <h1>Hello, my projects secion is currently under development</h1>
+        <h2>In the meanwhile check out my github my github by clicking here 👉 <a href="github.com/aeternum-dev">Click me!</a></h2>
       </div>
     );
   }

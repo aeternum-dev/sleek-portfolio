@@ -1,15 +1,17 @@
 # New structure of Home:
-Introduction  //unchanged
-react typed roles
+Introduction  //unchanged✔️
+react typed roles ✔️
+# New structure of Education:
 
-# What I do?   I have experience with:
-- Fullstack
-- Data Science
-- [L] Low level
-- Script languages (Ansible)
+
+# What I do?  I have experience with: 
+- Fullstack✔️
+- Data Science✔️
+- [L] Low level✔️
+- Script languages (Ansible)✔️
 
 # Changes:
-
+-
 - Adjust "theme" to my liking
 - Add multi-language support
     -add data for muliple languages in portfolio.js #1
@@ -20,5 +22,6 @@ react typed roles
 - [L] add in-site blog articles
 - Change Logo
 - if not hovering: Change stack logo to grey monochrome
-- nuke experiences tab, maybe create a new one for blogs
-- nuke Open Source
+- nuke experiences tab ✔️
+-  maybe create a new one for blogs 
+- nuke Open Source ✔️

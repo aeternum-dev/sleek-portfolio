@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import Typed from "react-typed";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -18,27 +19,27 @@ export default function Greeting(props) {
                 {greeting.english.title}
               </h1>
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                ( {greeting.nickname} )
+                 <Typed typeSpeed={50} backSpeed={50} backDelay={1000} strings={greeting.english.roles} loop />
               </h2>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {greeting.english.subTitle}
               </p>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="⭐ Star Me On Github"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={greeting.english.portfolio_repository}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
               </div>
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+              <Button text="See my resume" newTab={true} href={greeting.english.resumeLink} />
             </div> */}
             </div>
           </div>
