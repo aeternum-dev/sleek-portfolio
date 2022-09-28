@@ -18,8 +18,10 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <Header theme={theme} />
-        <h1>Hello, my projects secion is currently under development</h1>
-        <h2>In the meanwhile check out my github my github by clicking here 👉 <a href="github.com/aeternum-dev">Click me!</a></h2>
+        <div style={{marginTop : "30vh", width : "100vw"}}>
+        <h3 style={{textAllign : "center"}}>Hello, the projects section is currently under development</h3>
+        <h3 style={{textAllign : "center"}}>In the meanwhile, check out my github by clicking here 👉 <a href="github.com/aeternum-dev">Click me!</a></h3>
+        </div>
       </div>
     );
   }
