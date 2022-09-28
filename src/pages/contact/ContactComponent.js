@@ -57,7 +57,11 @@ class Contact extends Component {
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
-          <p>Ohayo</p>
+          <form className="messageForm">
+            <label>Add your message here:</label> 
+            <input className="forEmail" type="text"></input>
+            <input classname="submitButton"type="submit" value="submit"></input>
+          </form>
             </Fade>
           <Fade bottom duration={1000} distance="40px">
             <p>Gozaymasita</p>

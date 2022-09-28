@@ -608,7 +608,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "profilePictureSzabolcs.png",
     description:
-      "Here you can find links to my socials where you might want to contact me. Alternatively, you can also message me here:",
+      "Here you can find links to my various socials where you might want to contact me. Alternatively, you can also send me a message via the white rectangle down below:",
   },
   blogSection: {
     title: "Blogs",
