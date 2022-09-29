@@ -2,13 +2,16 @@
 Introduction  //unchanged✔️
 react typed roles ✔️
 # New structure of Education:
-
+- curently not attached to the DOM
 
 # What I do?  I have experience with: 
 - Fullstack✔️
 - Data Science✔️
 - [L] Low level✔️
 - Script languages (Ansible)✔️
+
+- make "Contact me" better👍
+- make tab icon better  
 
 # Changes:
 -

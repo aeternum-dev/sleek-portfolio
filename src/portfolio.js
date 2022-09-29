@@ -22,7 +22,7 @@ const seo = {
     og: { //should suffice
     title: "Szabolcs Terjék's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://aeternum-dev.github.io",
   },
 };
 
@@ -126,7 +126,7 @@ const skills = {
           },
         },
         { skillName: "Next.js",
-          fontAwesomeClassname: "simple-icons:next",
+          fontAwesomeClassname: "simple-icons:vercel",
           style: {
             color: '#000000'
           },

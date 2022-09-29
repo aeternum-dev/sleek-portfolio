@@ -4,23 +4,23 @@
 }
 
 .forEmail {
-  padding: 20px 0;
+  padding: 10px 15px;
   margin-top: 1em;
   width: 60vw;
-  height: 15em;
+  height: 10em;
   border-radius: 20px;
+  font-size: 1em;
+  resize: none;
 }
 
-.submitButton {
-  color: rgb(230, 250, 245);
-  background-color: rgb(8, 76, 97);
-  border: 1px solid rgb(8, 76, 97);
+.SubmitButton {
+  margin-top: -2em;
 }
 
 .quickFix {
   background-color: rgb(230,250,245);
   width: 25rem;
-  margin-left: 10rem;
+  margin-left: 5em;
 }
 
 .contact-main {
